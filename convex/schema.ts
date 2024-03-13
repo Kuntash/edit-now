@@ -7,5 +7,6 @@ export default defineSchema({
   }),
   users: defineTable({
     name: v.string(),
+    last_seen_online: v.number(),
   }),
 });
